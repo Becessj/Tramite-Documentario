@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	
+	background-color:#f9f9f9;
+}
+
+.signup-form-container {
+	
+	border-radius:3px;
+	background:#ffffff;
+	border-top:3px solid #007bff;
+	margin:4% auto;
+	max-width:500px;
+	border-top-color:#00c0ef;
+	box-shadow:0 1px 5px rgba(0, 0, 0, 0.1)
+}
+
+.form-header{
+	
+	color:#444;
+	display:block;
+	padding:20px;
+	position:relative;
+	border-bottom:1px solid #f4f4f4;
+}
+
+.form-header .form-title {
+	display:inline-block;
+	font-size:18px;
+	margin:0;
+	line-height:1
+}
+
+.form-body {
+	border-top-left-radius:0;
+	border-top-right-radius:0;
+	border-bottom-right-radius:3px;
+	border-bottom-left-radius:3px;
+	padding:20px;
+}
+
+.form-footer {
+	border-top-left-radius:0;
+	border-top-right-radius:0;
+	border-bottom-right-radius:3px;
+	border-bottom-left-radius:3px;
+	border-top:1px solid #f4f4f4;
+	padding:20px;
+	background-color:#fff
+}
+
+.form-control{
+	
+	font-size: 16px;
+    height: auto;
+    padding: 7px 9px;
+}
+.form-group #error{
+	color:#a94442;
+}

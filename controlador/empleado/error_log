@@ -1,0 +1,15 @@
+[07-Jul-2020 04:39:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method conexion::Cerrar_Conexion() in /home/softnets/public_html/Sistema_MesaPartes/modelo/modelo_empleado.php:29
+Stack trace:
+#0 /home/softnets/public_html/Sistema_MesaPartes/controlador/empleado/controlador_empleado_registro.php(13): Modelo_Empleado->Registrar_Empleado('USERRH', 'APERH', 'AMARH', '1980-06-28', '11111111', '9999999999', 'A', 'WILCARSISTEM@HO...')
+#1 {main}
+  thrown in /home/softnets/public_html/Sistema_MesaPartes/modelo/modelo_empleado.php on line 29
+[07-Jul-2020 04:39:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method conexion::Cerrar_Conexion() in /home/softnets/public_html/Sistema_MesaPartes/modelo/modelo_empleado.php:29
+Stack trace:
+#0 /home/softnets/public_html/Sistema_MesaPartes/controlador/empleado/controlador_empleado_registro.php(13): Modelo_Empleado->Registrar_Empleado('USERRH', 'APERH', 'AMARH', '1980-06-28', '11111111', '9999999999', 'AASDADS', 'WILCARSISTEM@HO...')
+#1 {main}
+  thrown in /home/softnets/public_html/Sistema_MesaPartes/modelo/modelo_empleado.php on line 29
+[07-Jul-2020 04:39:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method conexion::Cerrar_Conexion() in /home/softnets/public_html/Sistema_MesaPartes/modelo/modelo_empleado.php:29
+Stack trace:
+#0 /home/softnets/public_html/Sistema_MesaPartes/controlador/empleado/controlador_empleado_registro.php(13): Modelo_Empleado->Registrar_Empleado('USERRH', 'APERH', 'AMARH', '1980-06-28', '11111111', '9999999999', 'LOA ALAMOS 5459', 'WILCARSISTEM@HO...')
+#1 {main}
+  thrown in /home/softnets/public_html/Sistema_MesaPartes/modelo/modelo_empleado.php on line 29
